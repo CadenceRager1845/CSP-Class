@@ -1,1 +1,1 @@
-title = ("Welcome to UCAS!")
+title = print("Welcome to UCAS!")
