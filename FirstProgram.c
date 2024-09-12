@@ -2,8 +2,6 @@
 
 int main(void) {
     char name[30]; 
-    printf("Tell me your name: /n");
-    scanf("%s",name);
-    printf("Hello %s",name);
+    printf("Hello World");
     return 0;
     }
