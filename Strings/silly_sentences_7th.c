@@ -16,7 +16,7 @@ int main(void){
     strcat(sentence, place);
     strcat(sentence "where they "); 
     strcat(sentence, verb);
-    stract(sentence, "and bought a ")
+    stract(sentence, "and bought a "); 
     stract(sentence, noun); 
     strcat(sentence, ".\n"); 
     printf("%s", sentence); 
