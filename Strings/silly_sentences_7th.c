@@ -14,7 +14,7 @@ int main(void){
     strcat(sentence, name); 
     strcat(sentence, "went to the ");
     strcat(sentence, place);
-    strcat(sentence "where they "); 
+    strcat(sentence, "where they "); 
     strcat(sentence, verb);
     stract(sentence, "and bought a "); 
     stract(sentence, noun); 
