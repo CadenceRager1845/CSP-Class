@@ -1,12 +1,12 @@
-name, place, verb, noun, sentence
-print("Type a name: ")     
-print("%s", name)
-print("Type a place: ")
-print("%s", place); 
-print("Type a verb: ")
-print("%s", verb); 
-print("Type a noun: ")
-print("%s", noun)
+name, place, verb, noun, sentence    
+name = input("Type a name: ")
+name = print(name)
+place = input("Type a place: ")
+place = print(place) 
+verb = input("Type a verb: ")
+verb = print(verb)
+noun = input("Type a noun: ")
+noun = print(noun) 
 print(sentence, name)
 print(sentence, " went to the ")
 print(sentence, place)
