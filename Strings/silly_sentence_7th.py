@@ -1,0 +1,20 @@
+name, place, verb, noun, sentence
+print("Type a name: ")     
+print("%s", name)
+print("Type a place: ")
+print("%s", place); 
+print("Type a verb: ")
+print("%s", verb); 
+print("Type a noun: ")
+print("%s", noun)
+print(sentence, name)
+print(sentence, " went to the ")
+print(sentence, place)
+print(sentence, " where they ")
+print(sentence, verb)
+print(sentence, " and bought a ")
+print(sentence, noun)
+print(sentence, ".\n")
+print("%s", sentence)
+print("%s went to the %s and bought a %s, name, place, verb, noun")
+print("%s went to the %s where he %s and bought a %s.", name, place, verb, noun)
