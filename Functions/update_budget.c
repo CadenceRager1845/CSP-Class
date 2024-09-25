@@ -1,7 +1,7 @@
 #include <stdio.h>
-float income, rent, utilities, groceries, transportation, savings, expenses, spend; 
+float income, rent, utilities, groceries, transportation, savings, expenses, spend, total; 
 
-float input(char type[]){
+float input(char type[], float var){
     printf("How much is your %s:  \n", type); 
     scanf( "%f" , &var); 
     return var;
@@ -10,7 +10,7 @@ float input(char type[]){
 
 void percent(char type[], int amount){
     int per = amount/income *100;
-    prinf("Your %s is %d%% of your income.\n", type, per); 
+    printf("Your %s is %d%% of your income.\n", type, per); 
 }
 
 int main(void) {
@@ -24,12 +24,9 @@ int main(void) {
     expenses = rent + utilities + groceries + transportation; 
     spend = income - expenses - savings;
     percent ("rent", rent);
-    printf("Your expenses are: $%d%%", expenses);
-    printf("Your savings are: $%d%%", savings); 
+    printf("Your expenses are: $%.2f%%", expenses);
+    printf("Your savings are: $%.2f%%", savings); 
     printf("Your total left to spend is: $%.2f\n", total);
-    printf("Your rent is %d%% of your income",(int) prent); 
-    printf("Your utilities  is %d%% of your income",(int) putilities); 
-    printf("Your transportation is %d%% of your income",(int) ptransportation);
 
      percent ("rent", rent);
      percent ("utilities", utilities);
