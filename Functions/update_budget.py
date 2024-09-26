@@ -14,11 +14,18 @@ pgroceries = groceries/income *100
 ptransportation = transportation/income * 100
 psavings = savings/income *100 
 pexpenses = expenses/income * 100
+def percent(type, amount):
+    per = amount/income *100
 
-print("Your income is: %\n", income)
-print("Your expenses are: %\n", expenses)
-print("Your savings are: %\n", savings)
-print("Your total left to spend is: $%.2f\n", total)
-print("Your rent is % of your income", prent)
-print("Your rent is % of your income", putilities) 
-print("Your rent is % of your income", ptransportation)
+    return (f"Your {type} is {per}% income. ")
+
+
+print(f"Your monthly income is ${income}\n")
+print(f"Your monthly expenses are ${expenses}\n")
+print(f"Your monthly savings is ${savings}\n")
+print(percent("rent", rent))
+print(percent("utilities", utilities))
+print(percent("groceries", groceries))
+print(percent("transportation", transportation))
+print(percent("savings", savings))
+print(percent("expenses", expenses))
