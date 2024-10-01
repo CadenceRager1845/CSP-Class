@@ -1,4 +1,4 @@
 def name():
-    return input("What is your name?:" ) 
-def nameCreate(): 
-    
+    name = input("What is your name?:" )
+    return 
+print("Hello", name)
