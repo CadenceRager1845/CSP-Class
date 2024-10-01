@@ -3,7 +3,7 @@
 int age =20; 
 bool vote = false;
 int main(void){
-    if (age >= 18 vote == true){ 
+    if (age >= 18 && vote == true){ 
         printf("You are old enough to vote!\n");
     }else if (age >= 16){
         printf("You are old enough to drive!\n");
