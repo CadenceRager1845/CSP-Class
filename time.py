@@ -4,3 +4,4 @@ now = datetime.datetime.now().hour
 
 print(now)
 
+print("Good morning!") 
