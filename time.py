@@ -1,7 +1,15 @@
 import datetime
 
-now = datetime.datetime.now().hour 
+time = datetime.datetime.now().hour 
 
-print(now)
+if time >= 12:
+    print("Top of the day to ya!")
 
-print("Good morning!") 
+elif time >= 18:
+    print("Afternoon to you!")
+
+elif time >= 16:
+    printf("Good evening!")
+
+else:
+    print("What the HECK are you doing up?!")
