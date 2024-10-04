@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cstring> 
+#include <string.h> 
 
 int main(void) {
     char name[20], sentence[20]; 

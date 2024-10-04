@@ -1,4 +1,4 @@
-name = input("What is your name?: ")
-name = "Andrew"
+name = input("What do you want to do today?")
 
-print("Hello",name)
+print("OK...go" name) 
+                                     

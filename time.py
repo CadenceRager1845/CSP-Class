@@ -1,14 +1,14 @@
 import datetime
 
 time = datetime.datetime.now().hour 
-
-if time >= 12:
+print(time) 
+if time <= 12:
     print("Top of the day to ya!")
 
-elif time >= 18:
+elif time <= 18:
     print("Afternoon to you!")
 
-elif time >= 16:
+elif time <= 16:
     printf("Good evening!")
 
 else:
