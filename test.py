@@ -1,4 +1,4 @@
-import random 
-siblings = ["Alex", "Katie", "Andrew", "Vienna", "Tia", "Treyson", "Xavier", "Jake"]
+siblings = ["Judah!", "Amanda!", "Joshua!", "William!", "Jennifer!", "Lady!", "Margo!", "Pepper!"]
 num = 0 
-rand = random.randint(1, 10) 
+for x in siblings:
+    print(x) 
