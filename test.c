@@ -3,8 +3,8 @@ char siblings[8][20] = {"Judah", "Amanda", "Joshua", "William", "Jennifer", "Lad
 int i; 
 int main (){
     while (i < 8){
-        printf("%s Rager\n", siblings[i]); 
-        i+=1; 
+        printf("%s Rager!\n", siblings[i]); 
+        i++; 
     }
     return 0; 
 }
