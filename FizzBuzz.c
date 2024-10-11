@@ -21,17 +21,13 @@ int main(){
     scanf("%s", two);\
     strcat(three, one); 
     strcat(three, two); 
-    //create a loop that counts to 50
     for(i=1;i<=usr;i++){
-    //replace #'s divisible by both with "FizzBuzz"
     if(i%3==0 && i%5==0){
         printf("%s\n", three); 
     }else if (i%3==0){
-        printf("%s\n", one);  
-    //replace #'s divisble by 5 with "Buzz" 
+        printf("%s\n", one); 
     }else if (i%5==0){
-        printf("%s\n", two); 
-    //print all other numbers
+        printf("%s\n", two);
     }else{
         printf("%d\n", i);
             }
